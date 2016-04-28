@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Sintony);
+
+body{
+    font-family: 'Sintony', sans-serif;
+    font-size: 1em;
+    line-height: 1.6em;
+    color: #a6a6a6;
+    background-color: $background-color;
+
+}
+h1{
+    font-size: 1.1em;
+    font-weight:bold;
+}
+p{
+    margin: 30px 0;
+    /*border: 1px solid red;*/
+}
+header{
+    margin-bottom: 50px;
+}
+header img{
+    max-width: 100%;
+}
+#wrapper{
+    margin: 0 auto;
+    max-width: 960px;
+    transition: all;
+    /*border: 1px solid red;*/
+}
+main, details{
+    padding: 0 3%;
+    display: block;
+}
+details, a{
+    color: #00aeef;
+}
+
+@media all and (max-width : 320px){
+    header img{
+        max-width: 95%;
+    }  
+
+    main, details{
+        padding: 0 7%;
+    }
+}
+
